@@ -1,0 +1,40 @@
+﻿@inherits LayoutComponentBase
+<MudThemeProvider @rendermode="InteractiveServer" Theme="CustomTheme" />
+<MudPopoverProvider @rendermode="InteractiveServer" />
+<MudDialogProvider @rendermode="InteractiveServer" />
+<MudSnackbarProvider @rendermode="InteractiveServer" />
+
+<MudLayout>
+
+    <MudDrawerContainer>
+
+        <!-- Menu Lateral -->
+        <MudDrawer @bind-Open="_drawerOpen" ClipMode="DrawerClipMode.Always"
+            Class="@(_drawerOpen ? "menu-expanded" : "menu-collapsed")">
+            <NavMenu />
+        </MudDrawer>
+
+        <!-- Botão para abrir/fechar menu lateral -->
+        <div class="divider-lateral">
+            <MudIconButton OnClick="DrawerToggle" id="toggle-button" Class="toggle-button">
+                <MudIcon Icon="@Icons.Material.Filled.CompareArrows" />
+            </MudIconButton>
+        </div>
+
+        <!-- Conteúdo Principal -->
+        <MudMainContent Class="@(_drawerOpen ? "pa-16" : "pa-16 open")">
+            @Body
+        </MudMainContent>
+    </MudDrawerContainer>
+
+</MudLayout>
+
+@code {
+    private MudTheme CustomTheme = new DD8_Blazor.Shared.Themes.CustomMudTheme();
+    private bool _drawerOpen = true;
+
+    private void DrawerToggle()
+    {
+        _drawerOpen = !_drawerOpen;
+    }
+}

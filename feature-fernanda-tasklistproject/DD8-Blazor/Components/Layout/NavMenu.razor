@@ -1,0 +1,70 @@
+﻿﻿@using MudBlazor.Components
+
+<MudNavMenu>
+   <MudContainer Fluid="true" Elevation="1" JustifyContent="Start" AlignItems="Center">
+    <MudGrid JustifyContent="Start" AlignItems="Center">
+        <MudItem>
+            <MudLink Href="" Class="mud-link">
+                <img class="img-brand" src="assets/images/logo.png" alt="logo DD8" />
+                <div class="div-text-container">
+                    <strong class="text-div">Due Diligence Redefined</strong>
+                    <p class="text-div">Legal Expertise, AI-Powered</p>
+                </div>
+            </MudLink>
+        </MudItem>
+        <MudItem class="item-grid-painel"></MudItem>
+    </MudGrid>
+    <MudDivider Class="divider-header" />
+</MudContainer>
+
+
+    <!-- Menu de Navegação -->
+    <MudPaper Elevation="0" Class="div-links">
+        <MudList T="string" Class="div-text-item-menu">
+            @foreach (var item in new[] {
+            new { Href = "/new", Icon = "add-proj-icon.svg", Label = "Criar Projeto" },
+            new { Href = "/", Icon = "projects-icon.svg", Label = "Projetos" },
+            new { Href = "/chat", Icon = "deep_dive.svg", Label = "DeepDive" },
+            new { Href = "/historico", Icon = "historico.svg", Label = "Histórico" },
+            new { Href = "/support", Icon = "suporte.svg", Label = "HelpCenter" }
+            })
+            {
+                <MudNavLink Href="@item.Href" Match="NavLinkMatch.All" Class="text-menu mud-nav-links" ActiveClass="active-menu">
+                    <img class="img-icons" src="assets/images/sidenav-icons/@item.Icon" />
+                    @item.Label
+                </MudNavLink>
+
+
+            }
+        </MudList>
+    </MudPaper>
+
+    <div class="span-content-menu"></div>
+
+    <MudDivider Elevation="1" Class="divider-painel" />
+
+    <!-- Seção do Usuário -->
+    <MudGrid AlignItems="Center" JustifyContent="SpaceBetween" Class="grid-painel-admin">
+        <MudItem Class="item-grid-painel">
+            <img src="assets/images/sidenav-icons/user-avatar.png" class="avatar-custom" />
+        </MudItem>
+        <MudItem Class="item-grid-painel">
+            <div>
+                <strong class="text-div">Admin DD8</strong>
+                <p class="text-div">admin@dd8.ai</p>
+            </div>
+        </MudItem>
+        <MudItem Class="item-grid-painel mud-item-button">
+            <MudButton Class="mud-button-parameter">
+                <div class="icon-container">
+                    <img src="assets/images/sidenav-icons/parameter-icon.svg" class="icon-parameter" />
+                </div>
+            </MudButton>
+        </MudItem>
+    </MudGrid>
+
+</MudNavMenu>
+
+@code {
+    [Parameter] public bool IsCollapsed { get; set; }
+}
