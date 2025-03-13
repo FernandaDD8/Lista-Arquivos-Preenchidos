@@ -948,6 +948,18 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"xrj5gsrc96"},{"Name":"integrity","Value":"sha256-o1z1RqzdjQKq/KVwoyex2eQUfIps\u002B1bnRzz\u002B31\u002BS1WY="},{"Name":"label","Value":"_content/\u0060DD8-Blazor/css/App.css"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"582"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022o1z1RqzdjQKq/KVwoyex2eQUfIps\u002B1bnRzz\u002B31\u002BS1WY=\u0022"},{"Name":"Last-Modified","Value":"Wed, 12 Mar 2025 14:02:18 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/`DD8-Blazor/css/List.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\List.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-M0aebTn\u002BkBP1Gc2DGL2B9kG6aQZ6msObXIrNBeKATxE="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1442"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022M0aebTn\u002BkBP1Gc2DGL2B9kG6aQZ6msObXIrNBeKATxE=\u0022"},{"Name":"Last-Modified","Value":"Thu, 13 Mar 2025 19:35:00 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/`DD8-Blazor/css/List.dwc28haatn.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\List.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"dwc28haatn"},{"Name":"integrity","Value":"sha256-M0aebTn\u002BkBP1Gc2DGL2B9kG6aQZ6msObXIrNBeKATxE="},{"Name":"label","Value":"_content/\u0060DD8-Blazor/css/List.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1442"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022M0aebTn\u002BkBP1Gc2DGL2B9kG6aQZ6msObXIrNBeKATxE=\u0022"},{"Name":"Last-Modified","Value":"Thu, 13 Mar 2025 19:35:00 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/`DD8-Blazor/css/NavMenu.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\NavMenu.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>

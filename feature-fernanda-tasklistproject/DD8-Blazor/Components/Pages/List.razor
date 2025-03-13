@@ -4,13 +4,122 @@
 <PageTitle>DD8 - Login</PageTitle>
 
 <div class="content">
-    <h2>Projetos</h2>
+    <h2 class="h1-title">
+        <span class="bold-text">Projeto Azul</span>
+        <span class="normal-text">| 522 arquivos</span>
+    </h2>
 
-    <nav class="navbar navbar-light bg-light">
+    <div class="status-box">
+        <p> Em andamento</p>
+    </div>
+
+    <div class="button-container">
+        @foreach (var target in targets)
+        {
+            <button class="btn @(target == activeTarget ? "active" : "")" @onclick="() => SetActiveTarget(target)">
+                @target
+            </button>
+        }
+    </div>
+
+    @code {
+        private List<string> targets = new List<string> { "TARGET 1", "TARGET 2", "TARGET 3" };
+        private string activeTarget = "TARGET 1";
+
+        protected override void OnInitialized()
+        {
+            activeTarget = targets.FirstOrDefault() ?? activeTarget;
+        }
+
+        private void SetActiveTarget(string target)
+        {
+            activeTarget = target;
+        }
+    }
+
+    @* <MudCarousel Cycle="true" Height="100px" ShowArrows="true" ShowIndicators="true">
+        <MudCarouselItem>
+            <MudPaper Class="carousel-item">
+                <MudIcon Icon="@Icons.Material.Filled.BusinessCenter" Size="Large" />
+                <p>Societário<br>10 arquivos</p>
+            </MudPaper>
+        </MudCarouselItem>
+
+        <MudCarouselItem>
+            <MudPaper Class="carousel-item">
+                <MudIcon Icon="@Icons.Material.Filled.Description" Size="Large" />
+                <p>Contratos<br>10 arquivos</p>
+            </MudPaper>
+        </MudCarouselItem>
+
+        <MudCarouselItem>
+            <MudPaper Class="carousel-item">
+                <MudIcon Icon="@Icons.Material.Filled.Security" Size="Large" />
+                <p>Seguros<br>10 arquivos</p>
+            </MudPaper>
+        </MudCarouselItem>
+
+        <MudCarouselItem>
+            <MudPaper Class="carousel-item">
+                <MudIcon Icon="@Icons.Material.Filled.AccountBalance" Size="Large" />
+                <p>Bancário<br>10 arquivos</p>
+            </MudPaper>
+        </MudCarouselItem>
+
+        <MudCarouselItem>
+            <MudPaper Class="carousel-item">
+                <MudIcon Icon="@Icons.Material.Filled.AttachMoney" Size="Large" />
+                <p>Tributário<br>10 arquivos</p>
+            </MudPaper>
+        </MudCarouselItem>
+
+        <MudCarouselItem>
+            <MudPaper Class="carousel-item">
+                <MudIcon Icon="@Icons.Material.Filled.Work" Size="Large" />
+                <p>Trabalhista<br>10 arquivos</p>
+            </MudPaper>
+        </MudCarouselItem>
+
+        <MudCarouselItem>
+            <MudPaper Class="carousel-item">
+                <MudIcon Icon="@Icons.Material.Filled.Gavel" Size="Large" />
+                <p>Contencioso Cível<br>10 arquivos</p>
+            </MudPaper>
+        </MudCarouselItem>
+
+        <MudCarouselItem>
+            <MudPaper Class="carousel-item">
+                <MudIcon Icon="@Icons.Material.Filled.Home" Size="Large" />
+                <p>Imobiliário<br>10 arquivos</p>
+            </MudPaper>
+        </MudCarouselItem>
+
+        <MudCarouselItem>
+            <MudPaper Class="carousel-item">
+                <MudIcon Icon="@Icons.Material.Filled.Eco" Size="Large" />
+                <p>Ambiental<br>10 arquivos</p>
+            </MudPaper>
+        </MudCarouselItem>
+
+        <MudCarouselItem>
+            <MudPaper Class="carousel-item">
+                <MudIcon Icon="@Icons.Material.Filled.Clipboard" Size="Large" />
+                <p>Regulatório<br>10 arquivos</p>
+            </MudPaper>
+        </MudCarouselItem>
+    </MudCarousel> *@
+
+
+
+
+
+
+
+    @* <nav class="navbar navbar-light bg-light">
         <div class="container-fluid">
             <form class="d-flex form-header">
-                <input class="form-control me-2 input-search" type="search" id="search" name="search" placeholder="Pesquisar projetos"
-                       aria-label="Search">
+                <input class="form-control me-2 input-search" type="search" id="search" name="search"
+                    placeholder="Pesquisar projetos" aria-label="Search">
                 <span class="icon-search">
 
                 </span>
@@ -64,8 +173,12 @@
                     </CardHeaderActions>
                 </MudCardHeader>
                 <MudCardContent>
-                    <MudText><h5 class="card-title">Teste Ambiente Interno</h5></MudText>
-                    <MudText Typo="Typo.body2"><p class="card-text">Teste ambiente</p></MudText>
+                    <MudText>
+                        <h5 class="card-title">Teste Ambiente Interno</h5>
+                    </MudText>
+                    <MudText Typo="Typo.body2">
+                        <p class="card-text">Teste ambiente</p>
+                    </MudText>
                     <a href="#" class="btn">Início 04/11/2024</a>
                 </MudCardContent>
             </MudCard>
@@ -83,8 +196,12 @@
                     </CardHeaderActions>
                 </MudCardHeader>
                 <MudCardContent>
-                    <MudText><h5 class="card-title">Novo Teste Atualização</h5></MudText>
-                    <MudText Typo="Typo.body2"><p class="card-text">Emilio</p></MudText>
+                    <MudText>
+                        <h5 class="card-title">Novo Teste Atualização</h5>
+                    </MudText>
+                    <MudText Typo="Typo.body2">
+                        <p class="card-text">Emilio</p>
+                    </MudText>
                     <a href="#" class="btn">Início 01/07/2024</a>
                 </MudCardContent>
             </MudCard>
@@ -92,8 +209,8 @@
     </div>
 
     <span>Itens por página:</span>
-    <MudPagination Variant="Variant.Filled" Count="4" />
-
+    <MudPagination Variant="Variant.Filled" Count="4" /> *@
 
 </div>
+
 

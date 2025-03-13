@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\DevDD8-Tasks-Compartilhadas\\DD8-Front-Task-Project\\feature-fernanda-tasklistproject\\DD8-Blazor\\DD8-Blazor.csproj": {}
+    "C:\\DevDD8-Tasks-Compartilhadas\\DD8-list\\Lista-Arquivos-Preenchidos\\feature-fernanda-tasklistproject\\DD8-Blazor\\DD8-Blazor.csproj": {}
   },
   "projects": {
-    "C:\\DevDD8-Tasks-Compartilhadas\\DD8-Front-Task-Project\\feature-fernanda-tasklistproject\\DD8-Blazor\\DD8-Blazor.csproj": {
+    "C:\\DevDD8-Tasks-Compartilhadas\\DD8-list\\Lista-Arquivos-Preenchidos\\feature-fernanda-tasklistproject\\DD8-Blazor\\DD8-Blazor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\DevDD8-Tasks-Compartilhadas\\DD8-Front-Task-Project\\feature-fernanda-tasklistproject\\DD8-Blazor\\DD8-Blazor.csproj",
+        "projectUniqueName": "C:\\DevDD8-Tasks-Compartilhadas\\DD8-list\\Lista-Arquivos-Preenchidos\\feature-fernanda-tasklistproject\\DD8-Blazor\\DD8-Blazor.csproj",
         "projectName": "`DD8-Blazor",
-        "projectPath": "C:\\DevDD8-Tasks-Compartilhadas\\DD8-Front-Task-Project\\feature-fernanda-tasklistproject\\DD8-Blazor\\DD8-Blazor.csproj",
+        "projectPath": "C:\\DevDD8-Tasks-Compartilhadas\\DD8-list\\Lista-Arquivos-Preenchidos\\feature-fernanda-tasklistproject\\DD8-Blazor\\DD8-Blazor.csproj",
         "packagesPath": "C:\\Users\\Fernanda Marinho\\.nuget\\packages\\",
-        "outputPath": "C:\\DevDD8-Tasks-Compartilhadas\\DD8-Front-Task-Project\\feature-fernanda-tasklistproject\\DD8-Blazor\\obj\\",
+        "outputPath": "C:\\DevDD8-Tasks-Compartilhadas\\DD8-list\\Lista-Arquivos-Preenchidos\\feature-fernanda-tasklistproject\\DD8-Blazor\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
