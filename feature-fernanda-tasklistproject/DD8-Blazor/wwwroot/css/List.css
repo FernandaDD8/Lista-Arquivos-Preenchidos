@@ -229,3 +229,28 @@
     font-weight: 400;
     line-height: normal;
 }
+
+/*div abaixo do input-search*/
+.container-mud{
+margin-top:4%;
+}
+.mudpaper-div {
+    width: 1115px;
+    height: 12px;
+    flex-shrink: 0;
+    margin-top: 2%;
+}
+
+.mudpaper-text {
+    color: #2B2B33;
+    text-align: center;
+    font-family: "Barlow Condensed";
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.mud-elevation-1 {
+    box-shadow: none;
+}
