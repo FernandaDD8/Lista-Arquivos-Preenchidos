@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "oR7Qnzpcz51rhtLIFJsBrtEKtxUTMAq5gz59lBlCZ4c=",
+  "Hash": "+ugUL6Pjioelt4zOQdh3UKsYnmZx6M+eUtrxvcmQ8iI=",
   "Source": "`DD8-Blazor",
   "BasePath": "_content/`DD8-Blazor",
   "Mode": "Default",
@@ -374,12 +374,12 @@
       "OriginalItemSpec": "C:\\DevDD8-Tasks-Compartilhadas\\DD8-list\\Lista-Arquivos-Preenchidos\\feature-fernanda-tasklistproject\\DD8-Blazor\\wwwroot\\assets\\images\\sidenav-icons\\historico.svg"
     },
     {
-      "Identity": "C:\\DevDD8-Tasks-Compartilhadas\\DD8-list\\Lista-Arquivos-Preenchidos\\feature-fernanda-tasklistproject\\DD8-Blazor\\obj\\Debug\\net9.0\\compressed\\nglc5mpw3e-dwc28haatn.gz",
+      "Identity": "C:\\DevDD8-Tasks-Compartilhadas\\DD8-list\\Lista-Arquivos-Preenchidos\\feature-fernanda-tasklistproject\\DD8-Blazor\\obj\\Debug\\net9.0\\compressed\\nglc5mpw3e-s3ktmxk04d.gz",
       "SourceId": "`DD8-Blazor",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\DevDD8-Tasks-Compartilhadas\\DD8-list\\Lista-Arquivos-Preenchidos\\feature-fernanda-tasklistproject\\DD8-Blazor\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/`DD8-Blazor",
-      "RelativePath": "css/List#[.{fingerprint=dwc28haatn}]?.css.gz",
+      "RelativePath": "css/List#[.{fingerprint=s3ktmxk04d}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -388,8 +388,8 @@
       "RelatedAsset": "C:\\DevDD8-Tasks-Compartilhadas\\DD8-list\\Lista-Arquivos-Preenchidos\\feature-fernanda-tasklistproject\\DD8-Blazor\\wwwroot\\css\\List.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "1enby6alzr",
-      "Integrity": "KWXgaQx7AMZJPl94p8shRjepJewi1pxtVfM5x5KxPlY=",
+      "Fingerprint": "nqcv4s1s9x",
+      "Integrity": "wSle5Mg6bhuGCOtEAtq+YtjXw+5Q5DSL5rze++Z0Bhg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\DevDD8-Tasks-Compartilhadas\\DD8-list\\Lista-Arquivos-Preenchidos\\feature-fernanda-tasklistproject\\DD8-Blazor\\wwwroot\\css\\List.css"
@@ -2215,8 +2215,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "dwc28haatn",
-      "Integrity": "M0aebTn+kBP1Gc2DGL2B9kG6aQZ6msObXIrNBeKATxE=",
+      "Fingerprint": "s3ktmxk04d",
+      "Integrity": "CEXt9dh6fNhUONnV9B6dDMMJxZKe3Vwb5VvQq5NEpdA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\List.css"
@@ -13276,12 +13276,12 @@
     },
     {
       "Route": "css/List.css",
-      "AssetFile": "C:\\DevDD8-Tasks-Compartilhadas\\DD8-list\\Lista-Arquivos-Preenchidos\\feature-fernanda-tasklistproject\\DD8-Blazor\\obj\\Debug\\net9.0\\compressed\\nglc5mpw3e-dwc28haatn.gz",
+      "AssetFile": "C:\\DevDD8-Tasks-Compartilhadas\\DD8-list\\Lista-Arquivos-Preenchidos\\feature-fernanda-tasklistproject\\DD8-Blazor\\obj\\Debug\\net9.0\\compressed\\nglc5mpw3e-s3ktmxk04d.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.002057613169"
+          "Quality": "0.001001001001"
         }
       ],
       "ResponseHeaders": [
@@ -13291,15 +13291,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "485"
+          "Value": "998"
         },
         {
           "Name": "ETag",
-          "Value": "\"KWXgaQx7AMZJPl94p8shRjepJewi1pxtVfM5x5KxPlY=\""
+          "Value": "\"wSle5Mg6bhuGCOtEAtq+YtjXw+5Q5DSL5rze++Z0Bhg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Mar 2025 19:35:00 GMT"
+          "Value": "Fri, 14 Mar 2025 10:57:35 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13319,13 +13319,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"M0aebTn+kBP1Gc2DGL2B9kG6aQZ6msObXIrNBeKATxE=\""
+          "Value": "W/\"CEXt9dh6fNhUONnV9B6dDMMJxZKe3Vwb5VvQq5NEpdA=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-M0aebTn+kBP1Gc2DGL2B9kG6aQZ6msObXIrNBeKATxE="
+          "Value": "sha256-CEXt9dh6fNhUONnV9B6dDMMJxZKe3Vwb5VvQq5NEpdA="
         }
       ]
     },
@@ -13340,7 +13340,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1442"
+          "Value": "3526"
         },
         {
           "Name": "Content-Type",
@@ -13348,11 +13348,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"M0aebTn+kBP1Gc2DGL2B9kG6aQZ6msObXIrNBeKATxE=\""
+          "Value": "\"CEXt9dh6fNhUONnV9B6dDMMJxZKe3Vwb5VvQq5NEpdA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Mar 2025 19:35:00 GMT"
+          "Value": "Fri, 14 Mar 2025 10:57:35 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13362,13 +13362,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-M0aebTn+kBP1Gc2DGL2B9kG6aQZ6msObXIrNBeKATxE="
+          "Value": "sha256-CEXt9dh6fNhUONnV9B6dDMMJxZKe3Vwb5VvQq5NEpdA="
         }
       ]
     },
     {
       "Route": "css/List.css.gz",
-      "AssetFile": "C:\\DevDD8-Tasks-Compartilhadas\\DD8-list\\Lista-Arquivos-Preenchidos\\feature-fernanda-tasklistproject\\DD8-Blazor\\obj\\Debug\\net9.0\\compressed\\nglc5mpw3e-dwc28haatn.gz",
+      "AssetFile": "C:\\DevDD8-Tasks-Compartilhadas\\DD8-list\\Lista-Arquivos-Preenchidos\\feature-fernanda-tasklistproject\\DD8-Blazor\\obj\\Debug\\net9.0\\compressed\\nglc5mpw3e-s3ktmxk04d.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -13377,7 +13377,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "485"
+          "Value": "998"
         },
         {
           "Name": "Content-Type",
@@ -13385,11 +13385,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"KWXgaQx7AMZJPl94p8shRjepJewi1pxtVfM5x5KxPlY=\""
+          "Value": "\"wSle5Mg6bhuGCOtEAtq+YtjXw+5Q5DSL5rze++Z0Bhg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Mar 2025 19:35:00 GMT"
+          "Value": "Fri, 14 Mar 2025 10:57:35 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13407,18 +13407,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-KWXgaQx7AMZJPl94p8shRjepJewi1pxtVfM5x5KxPlY="
+          "Value": "sha256-wSle5Mg6bhuGCOtEAtq+YtjXw+5Q5DSL5rze++Z0Bhg="
         }
       ]
     },
     {
-      "Route": "css/List.dwc28haatn.css",
-      "AssetFile": "C:\\DevDD8-Tasks-Compartilhadas\\DD8-list\\Lista-Arquivos-Preenchidos\\feature-fernanda-tasklistproject\\DD8-Blazor\\obj\\Debug\\net9.0\\compressed\\nglc5mpw3e-dwc28haatn.gz",
+      "Route": "css/List.s3ktmxk04d.css",
+      "AssetFile": "C:\\DevDD8-Tasks-Compartilhadas\\DD8-list\\Lista-Arquivos-Preenchidos\\feature-fernanda-tasklistproject\\DD8-Blazor\\obj\\Debug\\net9.0\\compressed\\nglc5mpw3e-s3ktmxk04d.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.002057613169"
+          "Quality": "0.001001001001"
         }
       ],
       "ResponseHeaders": [
@@ -13428,15 +13428,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "485"
+          "Value": "998"
         },
         {
           "Name": "ETag",
-          "Value": "\"KWXgaQx7AMZJPl94p8shRjepJewi1pxtVfM5x5KxPlY=\""
+          "Value": "\"wSle5Mg6bhuGCOtEAtq+YtjXw+5Q5DSL5rze++Z0Bhg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Mar 2025 19:35:00 GMT"
+          "Value": "Fri, 14 Mar 2025 10:57:35 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13456,13 +13456,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"M0aebTn+kBP1Gc2DGL2B9kG6aQZ6msObXIrNBeKATxE=\""
+          "Value": "W/\"CEXt9dh6fNhUONnV9B6dDMMJxZKe3Vwb5VvQq5NEpdA=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "dwc28haatn"
+          "Value": "s3ktmxk04d"
         },
         {
           "Name": "label",
@@ -13470,12 +13470,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-M0aebTn+kBP1Gc2DGL2B9kG6aQZ6msObXIrNBeKATxE="
+          "Value": "sha256-CEXt9dh6fNhUONnV9B6dDMMJxZKe3Vwb5VvQq5NEpdA="
         }
       ]
     },
     {
-      "Route": "css/List.dwc28haatn.css",
+      "Route": "css/List.s3ktmxk04d.css",
       "AssetFile": "C:\\DevDD8-Tasks-Compartilhadas\\DD8-list\\Lista-Arquivos-Preenchidos\\feature-fernanda-tasklistproject\\DD8-Blazor\\wwwroot\\css\\List.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -13485,7 +13485,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1442"
+          "Value": "3526"
         },
         {
           "Name": "Content-Type",
@@ -13493,11 +13493,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"M0aebTn+kBP1Gc2DGL2B9kG6aQZ6msObXIrNBeKATxE=\""
+          "Value": "\"CEXt9dh6fNhUONnV9B6dDMMJxZKe3Vwb5VvQq5NEpdA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Mar 2025 19:35:00 GMT"
+          "Value": "Fri, 14 Mar 2025 10:57:35 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13507,7 +13507,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "dwc28haatn"
+          "Value": "s3ktmxk04d"
         },
         {
           "Name": "label",
@@ -13515,13 +13515,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-M0aebTn+kBP1Gc2DGL2B9kG6aQZ6msObXIrNBeKATxE="
+          "Value": "sha256-CEXt9dh6fNhUONnV9B6dDMMJxZKe3Vwb5VvQq5NEpdA="
         }
       ]
     },
     {
-      "Route": "css/List.dwc28haatn.css.gz",
-      "AssetFile": "C:\\DevDD8-Tasks-Compartilhadas\\DD8-list\\Lista-Arquivos-Preenchidos\\feature-fernanda-tasklistproject\\DD8-Blazor\\obj\\Debug\\net9.0\\compressed\\nglc5mpw3e-dwc28haatn.gz",
+      "Route": "css/List.s3ktmxk04d.css.gz",
+      "AssetFile": "C:\\DevDD8-Tasks-Compartilhadas\\DD8-list\\Lista-Arquivos-Preenchidos\\feature-fernanda-tasklistproject\\DD8-Blazor\\obj\\Debug\\net9.0\\compressed\\nglc5mpw3e-s3ktmxk04d.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -13530,7 +13530,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "485"
+          "Value": "998"
         },
         {
           "Name": "Content-Type",
@@ -13538,11 +13538,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"KWXgaQx7AMZJPl94p8shRjepJewi1pxtVfM5x5KxPlY=\""
+          "Value": "\"wSle5Mg6bhuGCOtEAtq+YtjXw+5Q5DSL5rze++Z0Bhg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Mar 2025 19:35:00 GMT"
+          "Value": "Fri, 14 Mar 2025 10:57:35 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13560,7 +13560,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "dwc28haatn"
+          "Value": "s3ktmxk04d"
         },
         {
           "Name": "label",
@@ -13568,7 +13568,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-KWXgaQx7AMZJPl94p8shRjepJewi1pxtVfM5x5KxPlY="
+          "Value": "sha256-wSle5Mg6bhuGCOtEAtq+YtjXw+5Q5DSL5rze++Z0Bhg="
         }
       ]
     },

@@ -1,14 +1,20 @@
-.h1-title {
+.content {
+    width: 1440px;
+    height: 900px;
+}
+
+/*cabeçalho*/
+.div-title {
     font-family: 'Montserrat', sans-serif;
     font-size: 22px;
     line-height: 100%;
 }
 
-.bold-text {
+.text-title {
     font-weight: 700;
 }
 
-.normal-text {
+.text-span {
     font-weight: 400;
 }
 
@@ -23,9 +29,9 @@
     width: 110px;
     padding: 2px;
     padding: 4px;
+    margin-top: 1%;
     height: 23px;
     border-radius: 10px;
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -35,6 +41,8 @@
     margin: 0;
     color: white;
 }
+
+/*botoes cabeçalho*/
 
 .button-container {
     display: flex;
@@ -74,10 +82,150 @@
 }
 
 
+/*carousel*/
 
+/*remove botao radio do carousel*/
+.d-flex {
+    display: block !important;
+    text-align: end !important;
+}
 
+.align-self-end {
+    align-self: flex-end !important;
+    display: none;
+}
 
+/*cards*/
+.div-carousel-card {
+    width: 106.142px;
+    height: 105px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid rgba(43, 43, 51, 0.10);
+    background: #F9F9F9;
+}
 
+.icon-carousel {
+    width: 32.691px;
+    height: 24px;
+    flex-shrink: 0;
+    color: #00003D
+}
 
+.text-societario {
+    width: 57.62px;
+    color: #00003D;
+    text-align: center;
+    font-family: "Barlow Semi Condensed";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.39px;
+}
 
+.text-arquivos {
+    color: #2B2B33;
+    font-family: Montserrat;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
 
+.wrap-card {
+    display: block;
+    text-align: center;
+}
+
+/*input de pesquisa e botões*/
+.input-container {
+    position: relative;
+    width: 772px;
+    height: 30px;
+    border-radius: 15px;
+    background: #FFF;
+    box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.10) inset;
+}
+
+.div-input-search {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    background: #FFF;
+    box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.10) inset;
+    padding-left: 4%;
+}
+
+.icon-search {
+    position: absolute;
+    top: 18px;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #000;
+    width: 12px;
+    height: 12px;
+    flex-shrink: 0;
+    z-index: 1;
+    border-radius: 15px;
+    background: #FFF;
+    box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.10) inset;
+}
+
+.div-btn {
+    margin-left: 4%;
+    max-width: fit-content;
+}
+
+.btn-input {
+    display: flex;
+    width: 86px;
+    height: 26px;
+    padding: 6px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    flex-shrink: 0;
+    border-radius: 10px;
+}
+
+.btn-input-buscar {
+    background: #000EFF;
+}
+
+.btn-input-limpar {
+    background: #2B2B33;
+}
+
+.text-btn {
+    color: #F9F9F9;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px;
+    /* 183.333% */
+}
+
+.icon-custom {
+    width: 14px;
+    height: 14px;
+    flex-shrink: 0;
+}
+
+.div-btn-up {
+    width: 89px;
+    height: 29px;
+    flex-shrink: 0;
+}
+
+.text-ultimo-up {
+    color: #444;
+    text-align: right;
+    font-family: "Barlow Condensed";
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

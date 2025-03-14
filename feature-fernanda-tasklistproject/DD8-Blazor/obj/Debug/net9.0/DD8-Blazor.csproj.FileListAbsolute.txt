@@ -228,4 +228,4 @@ C:\DevDD8-Tasks-Compartilhadas\DD8-list\Lista-Arquivos-Preenchidos\feature-ferna
 C:\DevDD8-Tasks-Compartilhadas\DD8-list\Lista-Arquivos-Preenchidos\feature-fernanda-tasklistproject\DD8-Blazor\obj\Debug\net9.0\`DD8-Blazor.pdb
 C:\DevDD8-Tasks-Compartilhadas\DD8-list\Lista-Arquivos-Preenchidos\feature-fernanda-tasklistproject\DD8-Blazor\obj\Debug\net9.0\DD8-Blazor.genruntimeconfig.cache
 C:\DevDD8-Tasks-Compartilhadas\DD8-list\Lista-Arquivos-Preenchidos\feature-fernanda-tasklistproject\DD8-Blazor\obj\Debug\net9.0\ref\`DD8-Blazor.dll
-C:\DevDD8-Tasks-Compartilhadas\DD8-list\Lista-Arquivos-Preenchidos\feature-fernanda-tasklistproject\DD8-Blazor\obj\Debug\net9.0\compressed\nglc5mpw3e-dwc28haatn.gz
+C:\DevDD8-Tasks-Compartilhadas\DD8-list\Lista-Arquivos-Preenchidos\feature-fernanda-tasklistproject\DD8-Blazor\obj\Debug\net9.0\compressed\nglc5mpw3e-s3ktmxk04d.gz
