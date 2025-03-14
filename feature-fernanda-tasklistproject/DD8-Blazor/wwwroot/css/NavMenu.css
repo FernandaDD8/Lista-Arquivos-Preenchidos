@@ -165,7 +165,7 @@
 }
 
 .span-content-menu {
-    height: 65px;
+    height: 90px;
 }
 
 .mud-grid-spacing-xs-6 {
@@ -180,8 +180,8 @@
 .mud-drawer.mud-drawer-responsive.mud-drawer-pos-left,
 .mud-drawer.mud-drawer-persistent.mud-drawer-pos-left {
     right: auto;
-    width: 240px;
-    height: auto;
+    /*width: 240px;
+    height: auto;*/
     align-items: center;
     gap: 5px;
     align-self: stretch;

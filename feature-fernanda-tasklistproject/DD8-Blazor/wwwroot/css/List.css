@@ -78,7 +78,6 @@
 
 
 /*carousel*/
-
 /*remove botao radio do carousel*/
 .d-flex {
     display: block !important;
@@ -88,6 +87,18 @@
 .align-self-end {
     align-self: flex-end !important;
     display: none;
+}
+
+.area-text {
+    margin-bottom: -25px;
+    color: #00003D;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.36px;
+    text-transform: uppercase;
 }
 
 /*cards*/
@@ -100,6 +111,15 @@
     background: #F9F9F9;
 }
 
+.carousel-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
 .icon-carousel {
     width: 32.691px;
     height: 24px;
@@ -107,8 +127,8 @@
     color: #00003D
 }
 
-.text-societario {
-    width: 57.62px;
+.text-card-title {
+    width: 100%;
     color: #00003D;
     text-align: center;
     font-family: "Barlow Semi Condensed";
@@ -122,11 +142,11 @@
 .text-arquivos {
     color: #2B2B33;
     font-family: Montserrat;
-    font-size: 9px;
+    font-size: 12px;
     font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    text-align: center;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0.36px;
 }
 
 .wrap-card {
@@ -153,6 +173,10 @@
     padding-left: 4%;
 }
 
+.div-grid-search {
+    margin-top: -7%;
+}
+
 .icon-search {
     position: absolute;
     top: 18px;
@@ -169,8 +193,9 @@
 }
 
 .div-btn {
-    margin-left: 6%;
+    margin-left: 5%;
     max-width: fit-content;
+    margin-right: 1%;
 }
 
 .btn-input {
@@ -235,6 +260,7 @@
     height: 12px;
     flex-shrink: 0;
     margin-top: 2%;
+    margin-bottom: 4%;
 }
 
 .mudpaper-text {
@@ -245,6 +271,7 @@
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    margin-top: -20px;
 }
 
 .mud-elevation-1 {
@@ -254,66 +281,147 @@
 /*cabeçalho-de-listagem-de-arquivos-botoes-de-ordenar-e-chackbox*/
 .container-alinhamento {
     display: flex;
-    /* Habilita o alinhamento em linha */
     align-items: center;
-    /* Alinha os itens verticalmente */
-    gap: 10px;
-    /* Espaçamento entre os itens */
+    gap: 20px;
     flex-wrap: nowrap;
-    /* Garante que todos os itens fiquem em uma única linha */
 }
 
 .check-box-style {
     margin-right: 8px;
-    /* Espaçamento entre o checkbox e os botões */
 }
 
 .btn-ordenar {
     display: flex;
-    /* Para alinhar o texto e ícone no botão */
     align-items: center;
     gap: 5px;
-    /* Espaço entre texto e ícone */
+}
+
+.container-alinhamento .btn-ordenar.ordenar-nome {
+    margin-right: 60px;
+    /* Ajuste maior para afastar só o botão "Nome" */
 }
 
 .btn-round {
-    
     border-radius: 10px;
     background: #E3B900;
 }
 
 .btn-round .mud-icon {
-    color: white; /* Ícone na cor branca */
-    font-size: 20px; /* Tamanho do ícone */
+    color: white;
+    font-size: 20px;
 }
 
 /*conteudo-principal*/
 .linha-container {
-    display: flex; /* Organiza os elementos em linha */
-    align-items: center; /* Centraliza verticalmente os elementos */
-    gap: 10px; /* Espaçamento entre os itens */
-    padding: 5px 0; /* Espaçamento interno opcional */
-    flex-wrap: nowrap; /* Garante que os itens fiquem na mesma linha */
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 5px 0;
+    flex-wrap: nowrap;
 }
 
 .check-box-style {
-    margin-right: 10px; /* Espaçamento do checkbox para o próximo item */
+    margin-right: 10px;
 }
 
 .arquivo-texto {
-    flex: 1; /* Faz o texto ocupar mais espaço, se necessário */
-    white-space: nowrap; /* Impede quebra de linha no texto */
+    color: #2B2B33;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0.36px;
 }
 
-.extensao-arquivo, .data-arquivo {
-    margin: 0 10px; /* Espaçamento horizontal */
-    white-space: nowrap; /* Mantém tudo na mesma linha */
+.extensao-arquivo,
+.data-arquivo {
+    margin: 0 10px;
+    white-space: nowrap;
 }
 
-.btn-toggle-status, .btn-icone {
-    padding: 5px 10px; /* Ajuste no tamanho do botão */
-    border-radius: 8px; /* Borda arredondada */
-    display: flex; /* Garante alinhamento interno */
-    align-items: center;
+
+.btn-toggle-status {
+    display: inline-flex;
+    padding: 5px;
     justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 20px;
+    background: rgba(43, 43, 51, 0.50);
+}
+
+.button-status {
+    margin: 0 !important;
+    padding: 0 !important;
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    color: inherit !important;
+}
+
+.btn-toggle-status[disabled] {
+    background-color: gray;
+    color: white;
+}
+
+.btn-toggle-status:has(text('Não')) {
+    background-color: black;
+    color: white;
+}
+
+.btn-toggle-status:has(text('Sim')) {
+    background-color: grey;
+    color: white;
+}
+
+.btn-toggle-status:hover,
+.btn-toggle-status:active,
+.btn-toggle-status:focus {
+    background-color: #000 !important;
+    color: white;
+    outline: none;
+}
+
+.btn-sim {
+    background-color: var(--mud-palette-default) !important;
+    color: white !important;
+}
+
+.btn-nao {
+    background-color: black !important;
+    color: white !important;
+}
+
+.btn-icone {
+    display: flex;
+    width: 20px;
+    height: 20px;
+    padding: 8px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    flex-shrink: 0;
+    border-radius: 10px;
+}
+
+.btn-default {
+    display: flex;
+    width: 20px;
+    height: 20px;
+    padding: 8px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    flex-shrink: 0;
+}
+
+.btn-del {
+    border-radius: 10px;
+    background: #2B2B33;
+}
+
+.btn-remove {
+    border-radius: 10px;
+    background: #E3B900;
 }

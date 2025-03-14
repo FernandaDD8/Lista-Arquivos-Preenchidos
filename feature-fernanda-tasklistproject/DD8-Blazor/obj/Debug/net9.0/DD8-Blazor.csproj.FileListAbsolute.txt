@@ -210,7 +210,6 @@ C:\DevDD8-Tasks-Compartilhadas\DD8-list\Lista-Arquivos-Preenchidos\feature-ferna
 C:\DevDD8-Tasks-Compartilhadas\DD8-list\Lista-Arquivos-Preenchidos\feature-fernanda-tasklistproject\DD8-Blazor\obj\Debug\net9.0\compressed\lrc17rqip5-xk3w4h66h6.gz
 C:\DevDD8-Tasks-Compartilhadas\DD8-list\Lista-Arquivos-Preenchidos\feature-fernanda-tasklistproject\DD8-Blazor\obj\Debug\net9.0\compressed\a8k1tci6wy-pxoxeh79qp.gz
 C:\DevDD8-Tasks-Compartilhadas\DD8-list\Lista-Arquivos-Preenchidos\feature-fernanda-tasklistproject\DD8-Blazor\obj\Debug\net9.0\compressed\8oqhruwwnc-xrj5gsrc96.gz
-C:\DevDD8-Tasks-Compartilhadas\DD8-list\Lista-Arquivos-Preenchidos\feature-fernanda-tasklistproject\DD8-Blazor\obj\Debug\net9.0\compressed\lvpa51hlbf-y89lids7sw.gz
 C:\DevDD8-Tasks-Compartilhadas\DD8-list\Lista-Arquivos-Preenchidos\feature-fernanda-tasklistproject\DD8-Blazor\obj\Debug\net9.0\compressed\bqrsocay2k-2jeq8efc6q.gz
 C:\DevDD8-Tasks-Compartilhadas\DD8-list\Lista-Arquivos-Preenchidos\feature-fernanda-tasklistproject\DD8-Blazor\obj\Debug\net9.0\compressed\9eyx01x6bn-kwfxxt9lki.gz
 C:\DevDD8-Tasks-Compartilhadas\DD8-list\Lista-Arquivos-Preenchidos\feature-fernanda-tasklistproject\DD8-Blazor\obj\Debug\net9.0\staticwebassets.build.json
@@ -228,4 +227,5 @@ C:\DevDD8-Tasks-Compartilhadas\DD8-list\Lista-Arquivos-Preenchidos\feature-ferna
 C:\DevDD8-Tasks-Compartilhadas\DD8-list\Lista-Arquivos-Preenchidos\feature-fernanda-tasklistproject\DD8-Blazor\obj\Debug\net9.0\`DD8-Blazor.pdb
 C:\DevDD8-Tasks-Compartilhadas\DD8-list\Lista-Arquivos-Preenchidos\feature-fernanda-tasklistproject\DD8-Blazor\obj\Debug\net9.0\DD8-Blazor.genruntimeconfig.cache
 C:\DevDD8-Tasks-Compartilhadas\DD8-list\Lista-Arquivos-Preenchidos\feature-fernanda-tasklistproject\DD8-Blazor\obj\Debug\net9.0\ref\`DD8-Blazor.dll
-C:\DevDD8-Tasks-Compartilhadas\DD8-list\Lista-Arquivos-Preenchidos\feature-fernanda-tasklistproject\DD8-Blazor\obj\Debug\net9.0\compressed\nglc5mpw3e-s3ktmxk04d.gz
+C:\DevDD8-Tasks-Compartilhadas\DD8-list\Lista-Arquivos-Preenchidos\feature-fernanda-tasklistproject\DD8-Blazor\obj\Debug\net9.0\compressed\lvpa51hlbf-isnosvl0xr.gz
+C:\DevDD8-Tasks-Compartilhadas\DD8-list\Lista-Arquivos-Preenchidos\feature-fernanda-tasklistproject\DD8-Blazor\obj\Debug\net9.0\compressed\nglc5mpw3e-pydnodi5t2.gz

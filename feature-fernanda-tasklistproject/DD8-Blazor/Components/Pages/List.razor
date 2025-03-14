@@ -22,110 +22,28 @@
         }
     </div>
 
-    <!--<MudCarousel TData="object" Class="mud-carousel-container" Style="height:300px;" ShowArrows="true">
+    <MudText Class="area-text">Áreas</MudText>
+    
+    <!-- Carousel -->
+    <MudCarousel TData="object" Class="mud-carousel-container" Style="height:300px;" ShowArrows="true" AutoCycle="false">
         <MudCarouselItem>
-            <MudCard class="div-carousel-card">
-                <MudCardContent class="wrap-card">
-                    <MudIcon Icon="@Icons.Material.Filled.BusinessCenter" Size="Size.Large" class="icon-carousel" />
-                    <MudText Typo="Typo.h6" class="text-societario">Societário</MudText>
-                    <MudText Typo="Typo.subtitle1" class="text-arquivos">10 arquivos</MudText>
-                </MudCardContent>
-            </MudCard>
+            <div class="carousel-container">
+                @foreach (var item in carouselItems)
+                {
+                    <MudCard class="div-carousel-card">
+                        <MudCardContent class="wrap-card">
+                            <MudIcon Icon="@item.Icon" Size="Size.Large" />
+                            <MudText Typo="Typo.h6" class="text-card-title">@item.Title</MudText>
+                            <MudText Typo="Typo.subtitle1" class="text-arquivos">@item.FileCount arquivos</MudText>
+                        </MudCardContent>
+                    </MudCard>
+                }
+            </div>
         </MudCarouselItem>
+    </MudCarousel>
 
-        <MudCarouselItem>
-            <MudCard class="div-carousel-card">
-                <MudCardContent class="wrap-card">
-                    <MudIcon Icon="@Icons.Material.Filled.Description" Size="Size.Large" />
-                    <MudText Typo="Typo.h6" class="text-societario">Contratos</MudText>
-                    <MudText Typo="Typo.subtitle1" class="text-arquivos">10 arquivos</MudText>
-                </MudCardContent>
-            </MudCard>
-        </MudCarouselItem>
-
-        <MudCarouselItem>
-            <MudCard class="div-carousel-card">
-                <MudCardContent class="wrap-card">
-                    <MudIcon Icon="@Icons.Material.Filled.Security" Size="Size.Large" />
-                    <MudText Typo="Typo.h6" class="text-societario">Seguros</MudText>
-                    <MudText Typo="Typo.subtitle1" class="text-arquivos">10 arquivos</MudText>
-                </MudCardContent>
-            </MudCard>
-        </MudCarouselItem>
-
-        <MudCarouselItem>
-            <MudCard class="div-carousel-card">
-                <MudCardContent class="wrap-card">
-                    <MudIcon Icon="@Icons.Material.Filled.AccountBalance" Size="Size.Large" />
-                    <MudText Typo="Typo.h6" class="text-societario">Bancário</MudText>
-                    <MudText Typo="Typo.subtitle1" class="text-arquivos">10 arquivos</MudText>
-                </MudCardContent>
-            </MudCard>
-        </MudCarouselItem>
-
-        <MudCarouselItem>
-            <MudCard class="div-carousel-card">
-                <MudCardContent class="wrap-card">
-                    <MudIcon Icon="@Icons.Material.Filled.AttachMoney" Size="Size.Large" />
-                    <MudText Typo="Typo.h6" class="text-societario">Tribuário</MudText>
-                    <MudText Typo="Typo.subtitle1" class="text-arquivos">10 arquivos</MudText>
-                </MudCardContent>
-            </MudCard>
-        </MudCarouselItem>
-
-        <MudCarouselItem>
-            <MudCard class="div-carousel-card">
-                <MudCardContent class="wrap-card">
-                    <MudIcon Icon="@Icons.Material.Filled.Work" Size="Size.Large" />
-                    <MudText Typo="Typo.h6" class="text-societario">Trabalhista</MudText>
-                    <MudText Typo="Typo.subtitle1" class="text-arquivos">10 arquivos</MudText>
-                </MudCardContent>
-            </MudCard>
-        </MudCarouselItem>
-
-        <MudCarouselItem>
-            <MudCard class="div-carousel-card">
-                <MudCardContent class="wrap-card">
-                    <MudIcon Icon="@Icons.Material.Filled.Gavel" Size="Size.Large" />
-                    <MudText Typo="Typo.h6" class="text-societario">Contencioso Cível</MudText>
-                    <MudText Typo="Typo.subtitle1" class="text-arquivos">10 arquivos</MudText>
-                </MudCardContent>
-            </MudCard>
-        </MudCarouselItem>
-
-        <MudCarouselItem>
-            <MudCard class="div-carousel-card">
-                <MudCardContent class="wrap-card">
-                    <MudIcon Icon="@Icons.Material.Filled.Home" Size="Size.Large" />
-                    <MudText Typo="Typo.h6" class="text-societario">Imobiliário</MudText>
-                    <MudText Typo="Typo.subtitle1" class="text-arquivos">10 arquivos</MudText>
-                </MudCardContent>
-            </MudCard>
-        </MudCarouselItem>
-
-        <MudCarouselItem>
-            <MudCard class="div-carousel-card">
-                <MudCardContent class="wrap-card">
-                    <MudIcon Icon="@Icons.Material.Filled.Home" Size="Size.Large" />
-                    <MudText Typo="Typo.h6" class="text-societario">Ambiental</MudText>
-                    <MudText Typo="Typo.subtitle1" class="text-arquivos">10 arquivos</MudText>
-                </MudCardContent>
-            </MudCard>
-        </MudCarouselItem>
-
-        <MudCarouselItem>
-            <MudCard class="div-carousel-card">
-                <MudCardContent class="wrap-card">
-                    <MudIcon Icon="@Icons.Material.Filled.ContentPaste" Size="Size.Large" />
-                    <MudText Typo="Typo.h6" class="text-societario">Regulatório</MudText>
-                    <MudText Typo="Typo.subtitle1" class="text-arquivos">10 arquivos</MudText>
-                </MudCardContent>
-            </MudCard>
-        </MudCarouselItem>
-
-    </MudCarousel>-->
-
-    <MudGrid Spacing="0">
+    <!-- Grid de busca e botões -->
+    <MudGrid Spacing="0" class="div-grid-search">
         <MudItem xs="12" sm="6">
             <div class="input-container">
                 <MudIcon Icon="@Icons.Material.Filled.Search" Class="icon-search" />
@@ -161,8 +79,14 @@
         </MudPaper>
     </MudContainer>
 
+    <!-- Cabeçalho Conteúdo Principal -->
     <MudContainer Class="container-alinhamento">
-        <MudCheckBox T="bool" @bind-Checked="isChecked" Class="check-box-style" />
+        <MudCheckBox T="bool" @bind-Value="Dense_CheckBox" Dense="false" Color="Color.Primary"></MudCheckBox>
+
+        <MudButton Variant="Variant.Text" Class="btn-ordenar ordenar-tipo-nome">
+            Nome
+            <MudIcon Icon="@Icons.Material.Filled.UnfoldMore" Class="icon-ordenar" />
+        </MudButton>
         <MudButton Variant="Variant.Text" Class="btn-ordenar">
             Compatível
             <MudIcon Icon="@Icons.Material.Filled.UnfoldMore" Class="icon-ordenar" />
@@ -181,142 +105,150 @@
         </MudButton>
     </MudContainer>
 
- <div class="linha-container">
-    <MudCheckBox T="bool" @bind-Checked="isChecked" Class="check-box-style" />
+    <!-- Conteúdo Principal -->
+<!-- Conteúdo Principal -->
+@foreach (var index in Enumerable.Range(0, 6))
+{
+    <div class="linha-container">
+        <MudCheckBox T="bool" @bind-Checked="isChecked" Class="check-box-style" />
+        <MudText Class="text-arquivos">Arquivo número @index - nome do arquivo @index</MudText>
+        
+        <MudButton Variant="Variant.Filled" Color="Color.Default" OnClick="() => ToggleStatusLista(index)" 
+        Class="btn-toggle-status">
+            @(statusLista[index] == "validar" ? "Sim" : "Não")
+        </MudButton>
+        
+        <MudText Class="text-arquivos">.pdf</MudText>
+        <MudText Class="text-arquivos">21.08.2024 às 13h45 GMT</MudText>
 
-    <MudText Class="arquivo-texto">Arquivo número 1 - nome do arquivo um</MudText>
-
-    <MudButton Variant="Variant.Filled" Color="Color.Primary" OnClick="ToggleStatus" Class="btn-toggle-status">
-        @(isYes ? "Sim" : "Não")
-    </MudButton>
-
-    <MudText Class="extensao-arquivo">.pdf</MudText>
-
-    <MudText Class="data-arquivo">21.08.2024 às 13h45 GMT</MudText>
-
-    <MudButton Variant="Variant.Filled" Class="btn-icone">
-        <MudIcon Icon="@Icons.Material.Filled.Remove" />
-    </MudButton>
-
-    <MudButton Variant="Variant.Filled" Class="btn-icone">
-        <MudIcon Icon="@Icons.Material.Filled.Delete" />
-    </MudButton>
-</div>
-
- <div class="linha-container">
-    <MudCheckBox T="bool" @bind-Checked="isChecked" Class="check-box-style" />
-
-    <MudText Class="arquivo-texto">Arquivo número 1 - nome do arquivo um</MudText>
-
-    <MudButton Variant="Variant.Filled" Color="Color.Primary" OnClick="ToggleStatus" Class="btn-toggle-status">
-        @(isYes ? "Sim" : "Não")
-    </MudButton>
-
-    <MudText Class="extensao-arquivo">.pdf</MudText>
-
-    <MudText Class="data-arquivo">21.08.2024 às 13h45 GMT</MudText>
-
-    <MudButton Variant="Variant.Filled" Class="btn-icone">
-        <MudIcon Icon="@Icons.Material.Filled.Remove" />
-    </MudButton>
-
-    <MudButton Variant="Variant.Filled" Class="btn-icone">
-        <MudIcon Icon="@Icons.Material.Filled.Delete" />
-    </MudButton>
-</div>
-
- <div class="linha-container">
-    <MudCheckBox T="bool" @bind-Checked="isChecked" Class="check-box-style" />
-
-    <MudText Class="arquivo-texto">Arquivo número 1 - nome do arquivo um</MudText>
-
-    <MudButton Variant="Variant.Filled" Color="Color.Primary" OnClick="ToggleStatus" Class="btn-toggle-status">
-        @(isYes ? "Sim" : "Não")
-    </MudButton>
-
-    <MudText Class="extensao-arquivo">.pdf</MudText>
-
-    <MudText Class="data-arquivo">21.08.2024 às 13h45 GMT</MudText>
-
-    <MudButton Variant="Variant.Filled" Class="btn-icone">
-        <MudIcon Icon="@Icons.Material.Filled.Remove" />
-    </MudButton>
-
-    <MudButton Variant="Variant.Filled" Class="btn-icone">
-        <MudIcon Icon="@Icons.Material.Filled.Delete" />
-    </MudButton>
-</div>
-
- <div class="linha-container">
-    <MudCheckBox T="bool" @bind-Checked="isChecked" Class="check-box-style" />
-
-    <MudText Class="arquivo-texto">Arquivo número 1 - nome do arquivo um</MudText>
-
-    <MudButton Variant="Variant.Filled" Color="Color.Primary" OnClick="ToggleStatus" Class="btn-toggle-status">
-        @(isYes ? "Sim" : "Não")
-    </MudButton>
-
-    <MudText Class="extensao-arquivo">.pdf</MudText>
-
-    <MudText Class="data-arquivo">21.08.2024 às 13h45 GMT</MudText>
-
-    <MudButton Variant="Variant.Filled" Class="btn-icone">
-        <MudIcon Icon="@Icons.Material.Filled.Remove" />
-    </MudButton>
-
-    <MudButton Variant="Variant.Filled" Class="btn-icone">
-        <MudIcon Icon="@Icons.Material.Filled.Delete" />
-    </MudButton>
-</div>
-
- <div class="linha-container">
-    <MudCheckBox T="bool" @bind-Checked="isChecked" Class="check-box-style" />
-
-    <MudText Class="arquivo-texto">Arquivo número 1 - nome do arquivo um</MudText>
-
-    <MudButton Variant="Variant.Filled" Color="Color.Primary" OnClick="ToggleStatus" Class="btn-toggle-status">
-        @(isYes ? "Sim" : "Não")
-    </MudButton>
-
-    <MudText Class="extensao-arquivo">.pdf</MudText>
-
-    <MudText Class="data-arquivo">21.08.2024 às 13h45 GMT</MudText>
-
-    <MudButton Variant="Variant.Filled" Class="btn-icone">
-        <MudIcon Icon="@Icons.Material.Filled.Remove" />
-    </MudButton>
-
-    <MudButton Variant="Variant.Filled" Class="btn-icone">
-        <MudIcon Icon="@Icons.Material.Filled.Delete" />
-    </MudButton>
-</div>
-
-    @code {
-        private List<string> targets = new List<string> { "TARGET 1", "TARGET 2", "TARGET 3" };
-        private string activeTarget = "TARGET 1";
-
-        protected override void OnInitialized()
+        @if (statusLista[index] == "remover")
         {
-            activeTarget = targets.FirstOrDefault() ?? activeTarget;
+            <MudButton Variant="Variant.Filled" Class="button-status" OnClick="() => HandleRemove(index)">
+                <img src="/assets/images/img-remover.png" width="25px">
+            </MudButton>
+        }
+        else if (statusLista[index] == "validar")
+        {
+            <MudButton Variant="Variant.Filled" Class="button-status" OnClick="() => HandleValidate(index)">
+                <img src="/assets/images/img-validacao.png" width="25px">
+            </MudButton>
+        }
+        else if (statusLista[index] == "realizando")
+        {
+            <MudButton Variant="Variant.Filled" Class="button-status" OnClick="() => HandleWorking(index)">
+                <img src="/assets/images/img-traco.png" width="25px">
+            </MudButton>
+        }
+            else if (statusLista[index] == "realizando")
+        {
+            <MudButton Variant="Variant.Filled" Class="btn-icone btn-icon-working" OnClick="() => HandleWorking(index)">
+                <MudIcon Icon="@Icons.Material.TwoTone.Close" />
+            </MudButton>
         }
 
-        private void SetActiveTarget(string target)
+        <MudButton Variant="Variant.Filled" Class="button-status" OnClick="() => HandleDelete(index)">
+            <MudIcon Icon="@Icons.Material.Filled.Delete" />
+        </MudButton>
+    </div>
+}
+
+@code {
+    
+    private List<string> statusLista = new List<string> { "remover", "validar", "realizando", "remover", "validar", "validar" };
+
+    
+    private void HandleRemove(int index)
+    {
+        Console.WriteLine($"Removendo o arquivo {index}");
+     
+    }
+
+   
+    private void HandleValidate(int index)
+    {
+        Console.WriteLine($"Validando o arquivo {index}");
+       
+    }
+
+ 
+    private void HandleWorking(int index)
+    {
+        Console.WriteLine($"Arquivo {index} está em andamento");
+        
+    }
+
+  
+    private void HandleDelete(int index)
+    {
+        Console.WriteLine($"Deletando o arquivo {index}");
+        
+    }
+
+
+    private void ToggleStatusLista(int index)
+    {
+        
+        if (statusLista[index] == "validar")
         {
-            activeTarget = target;
+            statusLista[index] = "remover";
+        }
+        else
+        {
+            statusLista[index] = "validar";
         }
     }
+}
 
-    @code {
-        private bool isChecked { get; set; } = true;
+@code {
+    private List<string> targets = new List<string> { "TARGET 1", "TARGET 2", "TARGET 3" };
+    private string activeTarget = "TARGET 1";
+    private bool isChecked { get; set; } = true;
+    public bool Dense_CheckBox { get; set; } = true;
+    private bool isYes { get; set; } = true;
+
+    private List<bool> statusList = new List<bool> { true, false, true, false, true };
+
+    protected override void OnInitialized()
+    {
+        activeTarget = targets.FirstOrDefault() ?? activeTarget;
     }
 
-    @code {
-        private bool isYes { get; set; } = true;
-
-        private void ToggleStatus()
-        {
-            isYes = !isYes;
-        }
+    private void SetActiveTarget(string target)
+    {
+        activeTarget = target;
     }
+
+    private void ToggleStatus(int index)
+    {
+        statusList[index] = !statusList[index];
+    }
+
+    private string GetButtonClass(int index)
+    {
+        return statusList[index] ? "btn-sim" : "btn-nao";
+    }
+
+    // Items do Carousel
+    private List<ItemModel> carouselItems = new List<ItemModel>
+    {
+        new ItemModel { Title = "Societário", Icon = Icons.Material.Filled.BusinessCenter, FileCount = 10 },
+        new ItemModel { Title = "Contratos", Icon = Icons.Material.Filled.Description, FileCount = 10 },
+        new ItemModel { Title = "Seguros", Icon = Icons.Material.Filled.Security, FileCount = 10 },
+        new ItemModel { Title = "Bancário", Icon = Icons.Material.Filled.AccountBalance, FileCount = 10 },
+        new ItemModel { Title = "Tributário", Icon = Icons.Material.Filled.AttachMoney, FileCount = 10 },
+        new ItemModel { Title = "Trabalhista", Icon = Icons.Material.Filled.Work, FileCount = 10 },
+        new ItemModel { Title = "Contencioso Cível", Icon = Icons.Material.Filled.Gavel, FileCount = 10 },
+        new ItemModel { Title = "Imobiliário", Icon = Icons.Material.Filled.Home, FileCount = 10 },
+        new ItemModel { Title = "Ambiental", Icon = Icons.Material.Filled.Home, FileCount = 10 },
+        new ItemModel { Title = "Regulatório", Icon = Icons.Material.Filled.ContentPaste, FileCount = 10 }
+    };
+
+    private class ItemModel
+    {
+        public string? Title { get; set; }
+        public string? Icon { get; set; }
+        public int FileCount { get; set; }
+    }
+}
 
 </div>

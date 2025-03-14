@@ -1434,8 +1434,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>s3ktmxk04d</Fingerprint>
-      <Integrity>CEXt9dh6fNhUONnV9B6dDMMJxZKe3Vwb5VvQq5NEpdA=</Integrity>
+      <Fingerprint>pydnodi5t2</Fingerprint>
+      <Integrity>j40y7FgsJYyZFculJv74tNEvT56WJD516cx5uzro9eg=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\List.css'))</OriginalItemSpec>
@@ -1452,8 +1452,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>y89lids7sw</Fingerprint>
-      <Integrity>Ekh8Mg7X9g1reivi4iks6SucBCi5H1kd48ti6n6oA1w=</Integrity>
+      <Fingerprint>isnosvl0xr</Fingerprint>
+      <Integrity>claSHYxUvBBAbfevrLM5Y3w7SOX0sjdRkfcfA1pHHDg=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\NavMenu.css'))</OriginalItemSpec>
