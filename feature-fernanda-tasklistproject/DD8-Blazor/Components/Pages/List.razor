@@ -125,7 +125,7 @@
 
     </MudCarousel>-->
 
-    <MudGrid>
+    <MudGrid Spacing="0">
         <MudItem xs="12" sm="6">
             <div class="input-container">
                 <MudIcon Icon="@Icons.Material.Filled.Search" Class="icon-search" />
@@ -133,19 +133,19 @@
             </div>
         </MudItem>
 
-        <MudItem xs="3" sm="2" class="div-btn-up">
+        <MudItem xs="6" sm="3" Class="div-btn-up">
             <MudText class="text-ultimo-up">Último upload em</MudText>
             <MudText class="text-ultimo-up">24.04.2024, às 13h45 GMT</MudText>
         </MudItem>
 
-        <MudItem xs="6" sm="2" class="div-btn">
+        <MudItem xs="3" sm="1" Class="div-btn">
             <MudButton Variant="Variant.Filled" Class="btn-input btn-input-buscar text-btn">
                 Upload
                 <MudIcon Icon="@Icons.Material.Filled.Add" Class="icon-custom" />
             </MudButton>
         </MudItem>
 
-        <MudItem xs="6" sm="2">
+        <MudItem xs="3" sm="1">
             <MudButton Variant="Variant.Filled" Class="btn-input btn-input-limpar text-btn">
                 Deletar
                 <MudIcon Icon="@Icons.Material.Filled.DeleteOutline" Class="icon-custom" />
@@ -161,9 +161,135 @@
         </MudPaper>
     </MudContainer>
 
+    <MudContainer Class="container-alinhamento">
+        <MudCheckBox T="bool" @bind-Checked="isChecked" Class="check-box-style" />
+        <MudButton Variant="Variant.Text" Class="btn-ordenar">
+            Compatível
+            <MudIcon Icon="@Icons.Material.Filled.UnfoldMore" Class="icon-ordenar" />
+        </MudButton>
+        <MudButton Variant="Variant.Text" Class="btn-ordenar">
+            Tipo
+            <MudIcon Icon="@Icons.Material.Filled.UnfoldMore" Class="icon-ordenar" />
+        </MudButton>
+        <MudButton Variant="Variant.Text" Class="btn-ordenar">
+            Data de Upload
+            <MudIcon Icon="@Icons.Material.Filled.UnfoldMore" Class="icon-ordenar" />
+        </MudButton>
+        <MudButton Variant="Variant.Text" Class="btn-ordenar">
+            DeepDive
+            <MudIcon Icon="@Icons.Material.Filled.UnfoldMore" Class="icon-ordenar" />
+        </MudButton>
+    </MudContainer>
 
+ <div class="linha-container">
+    <MudCheckBox T="bool" @bind-Checked="isChecked" Class="check-box-style" />
 
+    <MudText Class="arquivo-texto">Arquivo número 1 - nome do arquivo um</MudText>
 
+    <MudButton Variant="Variant.Filled" Color="Color.Primary" OnClick="ToggleStatus" Class="btn-toggle-status">
+        @(isYes ? "Sim" : "Não")
+    </MudButton>
+
+    <MudText Class="extensao-arquivo">.pdf</MudText>
+
+    <MudText Class="data-arquivo">21.08.2024 às 13h45 GMT</MudText>
+
+    <MudButton Variant="Variant.Filled" Class="btn-icone">
+        <MudIcon Icon="@Icons.Material.Filled.Remove" />
+    </MudButton>
+
+    <MudButton Variant="Variant.Filled" Class="btn-icone">
+        <MudIcon Icon="@Icons.Material.Filled.Delete" />
+    </MudButton>
+</div>
+
+ <div class="linha-container">
+    <MudCheckBox T="bool" @bind-Checked="isChecked" Class="check-box-style" />
+
+    <MudText Class="arquivo-texto">Arquivo número 1 - nome do arquivo um</MudText>
+
+    <MudButton Variant="Variant.Filled" Color="Color.Primary" OnClick="ToggleStatus" Class="btn-toggle-status">
+        @(isYes ? "Sim" : "Não")
+    </MudButton>
+
+    <MudText Class="extensao-arquivo">.pdf</MudText>
+
+    <MudText Class="data-arquivo">21.08.2024 às 13h45 GMT</MudText>
+
+    <MudButton Variant="Variant.Filled" Class="btn-icone">
+        <MudIcon Icon="@Icons.Material.Filled.Remove" />
+    </MudButton>
+
+    <MudButton Variant="Variant.Filled" Class="btn-icone">
+        <MudIcon Icon="@Icons.Material.Filled.Delete" />
+    </MudButton>
+</div>
+
+ <div class="linha-container">
+    <MudCheckBox T="bool" @bind-Checked="isChecked" Class="check-box-style" />
+
+    <MudText Class="arquivo-texto">Arquivo número 1 - nome do arquivo um</MudText>
+
+    <MudButton Variant="Variant.Filled" Color="Color.Primary" OnClick="ToggleStatus" Class="btn-toggle-status">
+        @(isYes ? "Sim" : "Não")
+    </MudButton>
+
+    <MudText Class="extensao-arquivo">.pdf</MudText>
+
+    <MudText Class="data-arquivo">21.08.2024 às 13h45 GMT</MudText>
+
+    <MudButton Variant="Variant.Filled" Class="btn-icone">
+        <MudIcon Icon="@Icons.Material.Filled.Remove" />
+    </MudButton>
+
+    <MudButton Variant="Variant.Filled" Class="btn-icone">
+        <MudIcon Icon="@Icons.Material.Filled.Delete" />
+    </MudButton>
+</div>
+
+ <div class="linha-container">
+    <MudCheckBox T="bool" @bind-Checked="isChecked" Class="check-box-style" />
+
+    <MudText Class="arquivo-texto">Arquivo número 1 - nome do arquivo um</MudText>
+
+    <MudButton Variant="Variant.Filled" Color="Color.Primary" OnClick="ToggleStatus" Class="btn-toggle-status">
+        @(isYes ? "Sim" : "Não")
+    </MudButton>
+
+    <MudText Class="extensao-arquivo">.pdf</MudText>
+
+    <MudText Class="data-arquivo">21.08.2024 às 13h45 GMT</MudText>
+
+    <MudButton Variant="Variant.Filled" Class="btn-icone">
+        <MudIcon Icon="@Icons.Material.Filled.Remove" />
+    </MudButton>
+
+    <MudButton Variant="Variant.Filled" Class="btn-icone">
+        <MudIcon Icon="@Icons.Material.Filled.Delete" />
+    </MudButton>
+</div>
+
+ <div class="linha-container">
+    <MudCheckBox T="bool" @bind-Checked="isChecked" Class="check-box-style" />
+
+    <MudText Class="arquivo-texto">Arquivo número 1 - nome do arquivo um</MudText>
+
+    <MudButton Variant="Variant.Filled" Color="Color.Primary" OnClick="ToggleStatus" Class="btn-toggle-status">
+        @(isYes ? "Sim" : "Não")
+    </MudButton>
+
+    <MudText Class="extensao-arquivo">.pdf</MudText>
+
+    <MudText Class="data-arquivo">21.08.2024 às 13h45 GMT</MudText>
+
+    <MudButton Variant="Variant.Filled" Class="btn-icone">
+        <MudIcon Icon="@Icons.Material.Filled.Remove" />
+    </MudButton>
+
+    <MudButton Variant="Variant.Filled" Class="btn-icone">
+        <MudIcon Icon="@Icons.Material.Filled.Delete" />
+    </MudButton>
+</div>
 
     @code {
         private List<string> targets = new List<string> { "TARGET 1", "TARGET 2", "TARGET 3" };
@@ -177,6 +303,19 @@
         private void SetActiveTarget(string target)
         {
             activeTarget = target;
+        }
+    }
+
+    @code {
+        private bool isChecked { get; set; } = true;
+    }
+
+    @code {
+        private bool isYes { get; set; } = true;
+
+        private void ToggleStatus()
+        {
+            isYes = !isYes;
         }
     }
 
