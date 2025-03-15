@@ -81,12 +81,14 @@
 
     <!-- Cabeçalho Conteúdo Principal -->
     <MudContainer Class="container-alinhamento">
+        <div class="grupo-checkbox-ordenar">
         <MudCheckBox T="bool" @bind-Value="Dense_CheckBox" Dense="false" Color="Color.Primary"></MudCheckBox>
-
         <MudButton Variant="Variant.Text" Class="btn-ordenar ordenar-tipo-nome">
             Nome
             <MudIcon Icon="@Icons.Material.Filled.UnfoldMore" Class="icon-ordenar" />
         </MudButton>
+        </div>
+        <div class="grupo-botoes">
         <MudButton Variant="Variant.Text" Class="btn-ordenar">
             Compatível
             <MudIcon Icon="@Icons.Material.Filled.UnfoldMore" Class="icon-ordenar" />
@@ -103,6 +105,7 @@
             DeepDive
             <MudIcon Icon="@Icons.Material.Filled.UnfoldMore" Class="icon-ordenar" />
         </MudButton>
+        </div>
     </MudContainer>
 
     <!-- Conteúdo Principal -->
@@ -118,7 +121,8 @@
             @(statusLista[index] == "validar" ? "Sim" : "Não")
         </MudButton>
         
-        <MudText Class="text-arquivos">.pdf</MudText>
+        <MudText Class="text-arquivos text-tipo-arq">.pdf</MudText>
+
         <MudText Class="text-arquivos">21.08.2024 às 13h45 GMT</MudText>
 
         @if (statusLista[index] == "remover")

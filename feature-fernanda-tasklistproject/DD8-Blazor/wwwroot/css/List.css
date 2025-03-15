@@ -225,7 +225,6 @@
     font-style: normal;
     font-weight: 600;
     line-height: 22px;
-    /* 183.333% */
 }
 
 .icon-custom {
@@ -276,14 +275,40 @@
 
 .mud-elevation-1 {
     box-shadow: none;
+    margin-bottom: 2%;
 }
 
 /*cabeçalho-de-listagem-de-arquivos-botoes-de-ordenar-e-chackbox*/
 .container-alinhamento {
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 40px;
+}
+
+.grupo-checkbox-ordenar {
     display: flex;
     align-items: center;
-    gap: 20px;
-    flex-wrap: nowrap;
+    gap: 10px; 
+    margin-right: 10px;
+}
+
+.grupo-botoes {
+    display: flex;
+    align-items: center;
+    gap: 40px; 
+    margin-left: 6%;
+}
+
+.ordenar-tipo-nome {
+    margin-left: 10px; 
+}
+
+
+.icon-ordenar {
+    font-size: 10px; 
 }
 
 .check-box-style {
@@ -296,9 +321,42 @@
     gap: 5px;
 }
 
+.linha-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 1fr 1fr 1fr; 
+    align-items: center;
+    gap: 10px;
+    padding: 5px 0;
+}
+
+.linha-container .check-box-style {
+    justify-self: center;
+}
+
+.linha-container .text-arquivos {
+    justify-self: start;
+    text-align: left; 
+    font-size: 12px; 
+}
+
+.linha-container .btn-toggle-status {
+    justify-self: center; 
+}
+
+.icon-ordenar {
+    font-size: 16px;
+}
+
+.container-alinhamento {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: nowrap;
+}
+
+
 .container-alinhamento .btn-ordenar.ordenar-nome {
     margin-right: 60px;
-    /* Ajuste maior para afastar só o botão "Nome" */
 }
 
 .btn-round {
@@ -334,6 +392,11 @@
     letter-spacing: 0.36px;
 }
 
+.text-tipo-arq{
+    margin-left: 3%;
+    margin-right: 4%;
+}
+
 .extensao-arquivo,
 .data-arquivo {
     margin: 0 10px;
@@ -344,6 +407,7 @@
 .btn-toggle-status {
     display: inline-flex;
     padding: 5px;
+    margin-left: 4%;
     justify-content: center;
     align-items: center;
     gap: 10px;
@@ -352,7 +416,7 @@
 }
 
 .button-status {
-    margin: 0 !important;
+    margin-left:4%;
     padding: 0 !important;
     background: none !important;
     border: none !important;
